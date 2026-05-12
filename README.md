@@ -21,3 +21,14 @@ If they had different URLs, they would be talking to different message brokers a
 ### RabbitMQ Screen
 
 ![RabbitMQ](images/rabbitmq_screen.png)
+
+
+### Running Subscriber and Publisher
+
+- **Publisher**
+![publisher](images/publisher.png)
+
+- **Subscriber**
+![subscriber](images/subscriber.png)
+
+After I run the publisher app, it immediately sent 5 events. Then, the subscriber app received those 5 events.
