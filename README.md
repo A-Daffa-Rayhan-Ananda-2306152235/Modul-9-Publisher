@@ -13,10 +13,11 @@ Because the publisher and subscriber are two completely separate and independent
 Using the exact same URL means that both programs are connecting to the exact same RabbitMQ message broker instance running on my machine.
 
 * The publisher uses this connection to drop off the 5 events to the broker.
-
-
 * The subscriber uses this connection to listen to the broker and consume the events that the publisher just dropped off.
 
-
-
 If they had different URLs, they would be talking to different message brokers and wouldn't be able to communicate with each other!
+
+
+### RabbitMQ Screen
+
+![RabbitMQ](images/rabbitmq_screen.png)
