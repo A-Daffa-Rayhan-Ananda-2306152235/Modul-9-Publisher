@@ -32,3 +32,9 @@ If they had different URLs, they would be talking to different message brokers a
 ![subscriber](images/subscriber.png)
 
 After I run the publisher app, it immediately sent 5 events. Then, the subscriber app received those 5 events.
+
+
+### Spike Chart
+![spike](images/spike-graph.png)
+
+This spike chart shows up everytime the publisher sends any events to the subscriber. The spikes represent the message rates.
